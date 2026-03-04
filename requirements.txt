@@ -1,2 +1,0 @@
-azure-ai-transcriptions
-azure-identity
