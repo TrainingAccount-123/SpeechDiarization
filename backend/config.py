@@ -1,0 +1,5 @@
+import os
+
+ASSEMBLY_AI_API = os.getenv("ASSEMBLYAI_API_KEY")
+UPLOAD_DIR = "./files"
+MAX_AUDIO_DURATION_SECS = 6240

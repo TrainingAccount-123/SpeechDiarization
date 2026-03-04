@@ -1,0 +1,931 @@
+2026-02-24 11:41:37 | [INFO] | caption_extraction.py | get_diarized_captions | Starting Captioning
+2026-02-24 11:41:37 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 11:43:41 | [INFO] | caption_extraction.py | get_diarized_captions | Total Time Taken : 0:02:04.975050
+2026-02-24 11:46:54 | [INFO] | caption_extraction.py | get_diarized_captions | Starting Captioning
+2026-02-24 11:46:54 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 11:47:04 | [INFO] | caption_extraction.py | _get_asr | ASR Time Taken : 0:00:10.706123
+2026-02-24 11:48:56 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken : 0:01:51.900220
+2026-02-24 11:48:56 | [INFO] | caption_extraction.py | get_diarized_captions | Total Time Taken : 0:02:02.606343
+2026-02-24 11:50:58 | [INFO] | caption_extraction.py | get_diarized_captions | Starting Captioning
+2026-02-24 11:50:58 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 11:51:15 | [INFO] | caption_extraction.py | _get_asr | ASR Time Taken : 0:00:16.630064
+2026-02-24 11:53:39 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken : 0:02:24.670767
+2026-02-24 11:53:39 | [INFO] | caption_extraction.py | get_diarized_captions | Total Time Taken : 0:02:41.303009
+2026-02-24 12:00:40 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 12:00:41 | [INFO] | transcribe.py | transcribe | Detected language 'en' with probability 1.00
+2026-02-24 12:04:57 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 12:04:58 | [INFO] | transcribe.py | transcribe | Detected language 'en' with probability 1.00
+2026-02-24 12:05:18 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:21.540824
+2026-02-24 12:07:19 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:01.329690
+2026-02-24 12:07:20 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 12:07:21 | [INFO] | transcribe.py | transcribe | Detected language 'en' with probability 1.00
+2026-02-24 12:07:41 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:21.580843
+2026-02-24 12:09:30 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:49.254699
+2026-02-24 12:15:22 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:15:22 | [INFO] | app.py | get_captions | File Read Time 0:00:00.017079
+2026-02-24 12:15:23 | [INFO] | app.py | get_captions | Conversion time 0:00:00.949438
+2026-02-24 12:16:46 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:16:46 | [INFO] | app.py | get_captions | File Read Time 0:00:00
+2026-02-24 12:16:46 | [INFO] | app.py | get_captions | Conversion time 0:00:00.032735
+2026-02-24 12:19:58 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:19:58 | [INFO] | app.py | get_captions | File Read Time 0:00:00.013042
+2026-02-24 12:19:58 | [INFO] | app.py | get_captions | Conversion time 0:00:00.034680
+2026-02-24 12:20:51 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:20:51 | [INFO] | app.py | get_captions | File Read Time 0:00:00.003452
+2026-02-24 12:20:51 | [INFO] | app.py | get_captions | Conversion time 0:00:00.062024
+2026-02-24 12:23:26 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:23:26 | [INFO] | app.py | get_captions | File Read Time 0:00:00.004461
+2026-02-24 12:23:26 | [INFO] | app.py | get_captions | Conversion time 0:00:00.099558
+2026-02-24 12:23:27 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 12:23:28 | [INFO] | transcribe.py | transcribe | Detected language 'en' with probability 1.00
+2026-02-24 12:23:48 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:21.876882
+2026-02-24 12:25:46 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:58.071097
+2026-02-24 12:27:24 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:27:24 | [INFO] | app.py | get_captions | File Read Time 0:00:00
+2026-02-24 12:27:25 | [INFO] | app.py | get_captions | Conversion time 0:00:00.187179
+2026-02-24 12:27:25 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 12:27:26 | [INFO] | transcribe.py | transcribe | Detected language 'en' with probability 1.00
+2026-02-24 12:27:46 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:21.517434
+2026-02-24 12:29:39 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:52.836781
+2026-02-24 12:40:32 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:40:32 | [INFO] | app.py | get_captions | File Read Time 0:00:00
+2026-02-24 12:40:32 | [INFO] | app.py | get_captions | Conversion time 0:00:00.179294
+2026-02-24 12:40:33 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 12:40:49 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:16.742372
+2026-02-24 12:48:36 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:48:36 | [INFO] | app.py | get_captions | File Read Time 0:00:00
+2026-02-24 12:48:36 | [INFO] | app.py | get_captions | Conversion time 0:00:00.159326
+2026-02-24 12:48:36 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 12:48:52 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:15.979742
+2026-02-24 12:50:46 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:53.880144
+2026-02-24 12:55:12 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:55:12 | [INFO] | app.py | get_captions | File Read Time 0:00:00.008523
+2026-02-24 12:55:12 | [INFO] | app.py | get_captions | Conversion time 0:00:00.174083
+2026-02-24 12:55:12 | [INFO] | transcribe.py | transcribe | Processing audio with duration 01:38.325
+2026-02-24 12:55:19 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:07.179811
+2026-02-24 12:55:21 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:00:02.077085
+2026-02-24 12:56:52 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 12:56:52 | [INFO] | app.py | get_captions | File Read Time 0:00:00
+2026-02-24 12:56:52 | [INFO] | app.py | get_captions | Conversion time 0:00:00.062225
+2026-02-24 12:56:53 | [INFO] | transcribe.py | transcribe | Processing audio with duration 00:01.100
+2026-02-24 12:56:54 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:01.166397
+2026-02-24 12:56:55 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:00:01.218344
+2026-02-24 13:04:59 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 13:04:59 | [INFO] | app.py | get_captions | File Read Time 0:00:00.010922
+2026-02-24 13:05:00 | [INFO] | app.py | get_captions | Conversion time 0:00:00.326067
+2026-02-24 13:05:00 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 13:05:43 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:43.690378
+2026-02-24 13:06:51 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:51.763414
+2026-02-24 13:06:51 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:52.105429
+2026-02-24 13:50:46 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 13:50:46 | [INFO] | app.py | get_captions | File Read Time 0:00:00
+2026-02-24 13:50:46 | [INFO] | app.py | get_captions | Conversion time 0:00:00.221130
+2026-02-24 13:50:46 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-24 13:52:29 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:43.560303
+2026-02-24 13:52:54 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:08.071818
+2026-02-24 13:52:54 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:02:08.406564
+2026-02-24 14:14:37 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 14:14:37 | [INFO] | app.py | get_captions | File Read Time 0:00:00
+2026-02-24 14:14:37 | [INFO] | app.py | get_captions | Conversion time 0:00:00.084195
+2026-02-24 14:18:39 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 14:18:39 | [INFO] | app.py | get_captions | File Read Time 0:00:00
+2026-02-24 14:18:40 | [INFO] | app.py | get_captions | Conversion time 0:00:00.075028
+2026-02-24 14:21:15 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 14:21:15 | [INFO] | app.py | get_captions | File Read Time 0:00:00.117957
+2026-02-24 14:21:15 | [INFO] | app.py | get_captions | Conversion time 0:00:00.273263
+2026-02-24 14:21:15 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-24 14:23:15 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:59.526350
+2026-02-24 14:23:47 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:31.766877
+2026-02-24 14:23:47 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:02:32.167691
+2026-02-24 14:38:35 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 14:38:35 | [INFO] | app.py | get_captions | File Read Time 0:00:00.093184
+2026-02-24 14:38:35 | [INFO] | app.py | get_captions | Conversion time 0:00:00.247687
+2026-02-24 14:38:35 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-24 14:39:21 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:45.483562
+2026-02-24 14:41:16 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:40.752440
+2026-02-24 14:41:16 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:02:41.106302
+2026-02-24 14:54:52 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 14:54:53 | [INFO] | app.py | get_captions | File Read Time 0:00:00.078093
+2026-02-24 14:54:53 | [INFO] | app.py | get_captions | Conversion time 0:00:00.296097
+2026-02-24 14:54:53 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-24 14:56:32 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:39.424926
+2026-02-24 14:57:50 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:56.698607
+2026-02-24 15:00:30 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 15:00:30 | [INFO] | app.py | get_captions | File Read Time 0:00:00.089350
+2026-02-24 15:00:30 | [INFO] | app.py | get_captions | Conversion time 0:00:00.245859
+2026-02-24 15:00:31 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-24 15:02:00 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:29.716030
+2026-02-24 15:03:18 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:47.967216
+2026-02-24 15:03:18 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:02:48.315061
+2026-02-24 15:06:48 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 15:06:48 | [INFO] | app.py | get_captions | File Read Time 0:00:00.081821
+2026-02-24 15:06:49 | [INFO] | app.py | get_captions | Conversion time 0:00:00.241194
+2026-02-24 15:06:49 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-24 15:07:52 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:03.673670
+2026-02-24 15:09:42 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:53.490707
+2026-02-24 15:09:42 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:02:53.824757
+2026-02-24 15:19:44 | [INFO] | app.py | get_captions | Starting Process
+2026-02-24 15:19:44 | [INFO] | app.py | get_captions | File Read Time 0:00:00.018846
+2026-02-24 15:19:44 | [INFO] | app.py | get_captions | Conversion time 0:00:00.396814
+2026-02-24 15:19:45 | [INFO] | transcribe.py | transcribe | Processing audio with duration 24:25.728
+2026-02-24 15:29:31 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:09:46.042438
+2026-02-24 15:40:17 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:20:33.027158
+2026-02-24 15:40:18 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:20:33.485613
+2026-02-25 11:18:20 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:18:20 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.021084
+2026-02-25 11:18:22 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:01.949476
+2026-02-25 11:18:23 | [INFO] | transcribe.py | transcribe | Processing audio with duration 24:25.728
+2026-02-25 11:22:21 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:22:21 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.004017
+2026-02-25 11:22:21 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.124810
+2026-02-25 11:22:21 | [INFO] | transcribe.py | transcribe | Processing audio with duration 00:22.881
+2026-02-25 11:22:24 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:02.894081
+2026-02-25 11:26:22 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:26:22 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.004413
+2026-02-25 11:26:22 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.077088
+2026-02-25 11:27:31 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:27:31 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.006646
+2026-02-25 11:27:31 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.081830
+2026-02-25 11:28:55 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:28:55 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.011808
+2026-02-25 11:28:55 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.070938
+2026-02-25 11:31:05 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:31:05 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.005092
+2026-02-25 11:31:05 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.098658
+2026-02-25 11:31:05 | [INFO] | transcribe.py | transcribe | Processing audio with duration 00:22.881
+2026-02-25 11:31:14 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:00:09.489759
+2026-02-25 11:31:15 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:09.574963
+2026-02-25 11:31:15 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:00:09.681912
+2026-02-25 11:32:11 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:32:11 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00
+2026-02-25 11:32:11 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.333147
+2026-02-25 11:32:11 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 11:33:35 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:23.494296
+2026-02-25 11:34:03 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:51.439868
+2026-02-25 11:34:03 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:51.778308
+2026-02-25 11:37:19 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:37:19 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.002014
+2026-02-25 11:37:19 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.278085
+2026-02-25 11:37:19 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 11:37:35 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:16.061780
+2026-02-25 11:39:47 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:12.172005
+2026-02-25 11:39:47 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:02:28.513884
+2026-02-25 11:44:33 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:44:33 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.004335
+2026-02-25 11:44:33 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.378832
+2026-02-25 11:44:33 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 11:45:49 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:16.369412
+2026-02-25 11:46:25 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:52.438095
+2026-02-25 11:46:25 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:52.827285
+2026-02-25 11:56:52 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 11:56:52 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.009100
+2026-02-25 11:56:52 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.379535
+2026-02-25 11:56:52 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 11:57:27 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:35.299460
+2026-02-25 11:58:34 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:42.214873
+2026-02-25 11:58:34 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:42.606589
+2026-02-25 12:20:31 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 12:20:31 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.004014
+2026-02-25 12:20:32 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.355328
+2026-02-25 12:20:32 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 12:21:44 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:12.509303
+2026-02-25 12:22:10 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:38.022975
+2026-02-25 12:22:10 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:38.392219
+2026-02-25 12:25:57 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 12:25:57 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.016655
+2026-02-25 12:25:57 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.359089
+2026-02-25 12:25:58 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 12:27:21 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:23.331681
+2026-02-25 12:27:42 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:45.177585
+2026-02-25 12:27:42 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:45.559105
+2026-02-25 13:05:47 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 13:05:47 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00
+2026-02-25 13:05:47 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.473996
+2026-02-25 13:05:48 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 13:07:23 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:35.570841
+2026-02-25 13:07:25 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:37.606509
+2026-02-25 13:07:25 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:38.090855
+2026-02-25 16:16:20 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:16:20 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00
+2026-02-25 16:16:20 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.416697
+2026-02-25 16:16:21 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 16:16:36 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:16.059751
+2026-02-25 16:17:57 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:17:57 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.011726
+2026-02-25 16:17:57 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.382795
+2026-02-25 16:17:58 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 16:18:13 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:15.729584
+2026-02-25 16:18:43 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:18:43 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00
+2026-02-25 16:18:43 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.362967
+2026-02-25 16:18:44 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 16:19:00 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:16.628818
+2026-02-25 16:22:24 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:22:24 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00
+2026-02-25 16:23:58 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:23:58 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.015733
+2026-02-25 16:24:35 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:24:35 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.002232
+2026-02-25 16:24:35 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.394212
+2026-02-25 16:24:35 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 16:25:54 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:19.524406
+2026-02-25 16:26:05 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:29.862631
+2026-02-25 16:28:54 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:28:54 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.003584
+2026-02-25 16:28:54 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.413358
+2026-02-25 16:28:54 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-25 16:29:33 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:38.771016
+2026-02-25 16:30:21 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:27.094272
+2026-02-25 16:30:21 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:27.518499
+2026-02-25 16:32:21 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:32:21 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.103312
+2026-02-25 16:32:21 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.507656
+2026-02-25 16:32:22 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 16:33:12 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:50.242102
+2026-02-25 16:33:53 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:31.196979
+2026-02-25 16:33:53 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:31.823073
+2026-02-25 16:35:19 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:35:19 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.067972
+2026-02-25 16:35:19 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.518990
+2026-02-25 16:35:20 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 16:36:34 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:14.888360
+2026-02-25 16:36:53 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:33.279652
+2026-02-25 16:36:53 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:33.873702
+2026-02-25 16:58:48 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 16:58:48 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.074547
+2026-02-25 16:58:49 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.574267
+2026-02-25 16:58:50 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 17:00:27 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:38.135497
+2026-02-25 17:00:34 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:44.822904
+2026-02-25 17:00:34 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:45.484477
+2026-02-25 17:01:54 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 17:01:54 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.049772
+2026-02-25 17:01:55 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.500093
+2026-02-25 17:01:55 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 17:04:02 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:02:07.371688
+2026-02-25 17:04:15 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:20.253319
+2026-02-25 17:04:15 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:02:20.819361
+2026-02-25 17:05:30 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 17:05:30 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.077229
+2026-02-25 17:05:30 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.504061
+2026-02-25 17:05:31 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 17:06:44 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:13.325745
+2026-02-25 17:07:15 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:44.811965
+2026-02-25 17:07:15 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:45.399561
+2026-02-25 17:17:11 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 17:17:11 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.053796
+2026-02-25 17:17:12 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.834021
+2026-02-25 17:17:12 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 17:18:32 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:20.379830
+2026-02-25 17:18:39 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:26.570208
+2026-02-25 17:18:39 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:27.480740
+2026-02-25 17:27:03 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 17:27:03 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.071090
+2026-02-25 17:27:04 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.523164
+2026-02-25 17:27:04 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 17:28:27 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:22.990429
+2026-02-25 17:28:29 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:24.806468
+2026-02-25 17:28:29 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:25.417578
+2026-02-25 17:32:14 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 17:32:14 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.042892
+2026-02-25 17:32:14 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.481515
+2026-02-25 17:32:15 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 17:33:05 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:00:50.062662
+2026-02-25 17:33:45 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:30.092343
+2026-02-25 17:33:45 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:30.640106
+2026-02-25 17:37:20 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 17:37:20 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.104811
+2026-02-25 17:37:20 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.488001
+2026-02-25 17:37:21 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 17:38:50 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:30.253503
+2026-02-25 17:38:55 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:34.573128
+2026-02-25 17:38:55 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:35.190391
+2026-02-25 17:43:06 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 17:43:06 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.095030
+2026-02-25 17:43:07 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.495162
+2026-02-25 17:43:07 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 17:44:20 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:13.208146
+2026-02-25 17:45:14 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:07.095000
+2026-02-25 17:45:14 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:02:07.699985
+2026-02-25 18:01:43 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 18:01:43 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.099912
+2026-02-25 18:01:44 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.509339
+2026-02-25 18:01:44 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 18:03:11 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:27.198214
+2026-02-25 18:03:49 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:02:05.596829
+2026-02-25 18:03:49 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:02:06.234231
+2026-02-25 18:09:26 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-25 18:09:26 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.062954
+2026-02-25 18:09:26 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.466190
+2026-02-25 18:09:27 | [INFO] | transcribe.py | transcribe | Processing audio with duration 04:07.014
+2026-02-25 18:11:17 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:50.747752
+2026-02-25 18:11:24 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:57.423098
+2026-02-25 18:11:24 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:57.976015
+2026-02-26 10:55:59 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-26 10:55:59 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00.003508
+2026-02-26 10:55:59 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.464057
+2026-02-26 10:56:00 | [INFO] | transcribe.py | transcribe | Processing audio with duration 03:33.760
+2026-02-26 10:57:40 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:40.930836
+2026-02-26 10:57:46 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:46.240147
+2026-02-26 10:57:46 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:46.726427
+2026-02-26 13:13:53 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-26 13:13:53 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00
+2026-02-26 13:13:53 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.410815
+2026-02-26 13:13:53 | [INFO] | transcribe.py | transcribe | Processing audio with duration 03:33.760
+2026-02-26 13:15:11 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:17.651451
+2026-02-26 14:54:48 | [INFO] | captions_router.py | get_assemblyai_transcripts | Startign wiht assembly AI
+2026-02-26 14:56:02 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:01:14.050131
+2026-02-26 15:41:48 | [INFO] | captions_router.py | get_captions | Starting Process
+2026-02-26 15:41:48 | [INFO] | captions_router.py | get_captions | File Read Time 0:00:00
+2026-02-26 15:41:48 | [INFO] | captions_router.py | get_captions | Conversion time 0:00:00.420120
+2026-02-26 15:41:49 | [INFO] | transcribe.py | transcribe | Processing audio with duration 02:49.169
+2026-02-26 15:43:05 | [INFO] | caption_extraction.py | _get_diarization | Diarization Time Taken 0:01:16.818958
+2026-02-26 15:43:08 | [INFO] | caption_extraction.py | _get_asr | ASR Time taken 0:01:19.977167
+2026-02-26 15:43:08 | [INFO] | caption_extraction.py | get_diarized_captions | Ending Process. Total Time Taken 0:01:20.404989
+2026-02-27 10:48:41 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 10:49:40 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 10:50:50 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 10:50:58 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 10:50:58 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 10:50:58 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d241068a-581f-412b-8d7a-f26819951e08 "HTTP/1.1 200 OK"
+2026-02-27 10:51:02 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d241068a-581f-412b-8d7a-f26819951e08 "HTTP/1.1 200 OK"
+2026-02-27 10:51:05 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d241068a-581f-412b-8d7a-f26819951e08 "HTTP/1.1 200 OK"
+2026-02-27 10:51:08 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d241068a-581f-412b-8d7a-f26819951e08 "HTTP/1.1 200 OK"
+2026-02-27 10:51:12 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d241068a-581f-412b-8d7a-f26819951e08 "HTTP/1.1 200 OK"
+2026-02-27 10:51:12 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:21.811286
+2026-02-27 11:06:33 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:06:34 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.600477
+2026-02-27 11:06:34 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:00.604611
+2026-02-27 11:07:14 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:07:15 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.540481
+2026-02-27 11:07:15 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:00.546177
+2026-02-27 11:09:55 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:09:55 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.597661
+2026-02-27 11:11:40 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:11:40 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.566903
+2026-02-27 11:11:48 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 11:11:48 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 11:11:49 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/893745be-67e5-406a-b73b-eecdb1cf116d "HTTP/1.1 200 OK"
+2026-02-27 11:11:52 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/893745be-67e5-406a-b73b-eecdb1cf116d "HTTP/1.1 200 OK"
+2026-02-27 11:11:55 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/893745be-67e5-406a-b73b-eecdb1cf116d "HTTP/1.1 200 OK"
+2026-02-27 11:11:59 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/893745be-67e5-406a-b73b-eecdb1cf116d "HTTP/1.1 200 OK"
+2026-02-27 11:12:02 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/893745be-67e5-406a-b73b-eecdb1cf116d "HTTP/1.1 200 OK"
+2026-02-27 11:12:03 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:23.043391
+2026-02-27 11:14:21 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:14:21 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.564616
+2026-02-27 11:15:00 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:15:01 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.597730
+2026-02-27 11:15:10 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 11:15:11 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 11:15:12 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/6af1f740-d4af-4ef2-b6b0-ff2a1cc1ca40 "HTTP/1.1 200 OK"
+2026-02-27 11:15:15 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/6af1f740-d4af-4ef2-b6b0-ff2a1cc1ca40 "HTTP/1.1 200 OK"
+2026-02-27 11:15:19 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/6af1f740-d4af-4ef2-b6b0-ff2a1cc1ca40 "HTTP/1.1 200 OK"
+2026-02-27 11:15:24 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/6af1f740-d4af-4ef2-b6b0-ff2a1cc1ca40 "HTTP/1.1 200 OK"
+2026-02-27 11:16:20 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:16:20 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.609294
+2026-02-27 11:16:30 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 11:16:30 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 11:16:30 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/b9fc32e5-88bd-4b14-8474-cf3e48b75023 "HTTP/1.1 200 OK"
+2026-02-27 11:16:33 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/b9fc32e5-88bd-4b14-8474-cf3e48b75023 "HTTP/1.1 200 OK"
+2026-02-27 11:16:37 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/b9fc32e5-88bd-4b14-8474-cf3e48b75023 "HTTP/1.1 200 OK"
+2026-02-27 11:16:40 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/b9fc32e5-88bd-4b14-8474-cf3e48b75023 "HTTP/1.1 200 OK"
+2026-02-27 11:16:44 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/b9fc32e5-88bd-4b14-8474-cf3e48b75023 "HTTP/1.1 200 OK"
+2026-02-27 11:16:56 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:36.089912
+2026-02-27 11:40:20 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:40:21 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.577559
+2026-02-27 11:45:02 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:45:03 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.926445
+2026-02-27 11:45:37 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 11:45:37 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 11:45:38 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/47acd744-532e-4efd-8a85-8fee0447e1f1 "HTTP/1.1 200 OK"
+2026-02-27 11:45:41 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/47acd744-532e-4efd-8a85-8fee0447e1f1 "HTTP/1.1 200 OK"
+2026-02-27 11:45:44 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/47acd744-532e-4efd-8a85-8fee0447e1f1 "HTTP/1.1 200 OK"
+2026-02-27 11:45:48 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/47acd744-532e-4efd-8a85-8fee0447e1f1 "HTTP/1.1 200 OK"
+2026-02-27 11:45:51 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/47acd744-532e-4efd-8a85-8fee0447e1f1 "HTTP/1.1 200 OK"
+2026-02-27 11:45:52 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:49.496893
+2026-02-27 11:49:11 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:49:12 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.552927
+2026-02-27 11:49:37 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 11:49:37 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 11:49:38 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/98e6ad22-0c6f-4e37-ad5c-33dd37f28f66 "HTTP/1.1 200 OK"
+2026-02-27 11:49:41 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/98e6ad22-0c6f-4e37-ad5c-33dd37f28f66 "HTTP/1.1 200 OK"
+2026-02-27 11:49:44 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/98e6ad22-0c6f-4e37-ad5c-33dd37f28f66 "HTTP/1.1 200 OK"
+2026-02-27 11:49:48 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/98e6ad22-0c6f-4e37-ad5c-33dd37f28f66 "HTTP/1.1 200 OK"
+2026-02-27 11:49:51 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/98e6ad22-0c6f-4e37-ad5c-33dd37f28f66 "HTTP/1.1 200 OK"
+2026-02-27 11:49:52 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:40.994548
+2026-02-27 11:52:57 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:52:57 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.544095
+2026-02-27 11:53:33 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 11:53:34 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 11:53:34 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/cf06fbae-2278-40f9-be04-afea9f28249f "HTTP/1.1 200 OK"
+2026-02-27 11:53:37 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/cf06fbae-2278-40f9-be04-afea9f28249f "HTTP/1.1 200 OK"
+2026-02-27 11:53:41 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/cf06fbae-2278-40f9-be04-afea9f28249f "HTTP/1.1 200 OK"
+2026-02-27 11:53:44 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/cf06fbae-2278-40f9-be04-afea9f28249f "HTTP/1.1 200 OK"
+2026-02-27 11:53:48 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/cf06fbae-2278-40f9-be04-afea9f28249f "HTTP/1.1 200 OK"
+2026-02-27 11:53:48 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:51.314274
+2026-02-27 11:57:16 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 11:57:17 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.565011
+2026-02-27 11:57:41 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 11:57:41 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 11:57:41 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0d580b6e-0232-4352-be43-87abd6791492 "HTTP/1.1 200 OK"
+2026-02-27 11:57:45 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0d580b6e-0232-4352-be43-87abd6791492 "HTTP/1.1 200 OK"
+2026-02-27 11:57:48 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0d580b6e-0232-4352-be43-87abd6791492 "HTTP/1.1 200 OK"
+2026-02-27 11:57:51 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0d580b6e-0232-4352-be43-87abd6791492 "HTTP/1.1 200 OK"
+2026-02-27 11:57:55 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0d580b6e-0232-4352-be43-87abd6791492 "HTTP/1.1 200 OK"
+2026-02-27 11:57:58 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0d580b6e-0232-4352-be43-87abd6791492 "HTTP/1.1 200 OK"
+2026-02-27 11:57:59 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:42.796271
+2026-02-27 12:03:04 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 12:03:05 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.564722
+2026-02-27 12:03:33 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 12:03:33 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 12:03:34 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/99a2d48e-e843-45cb-890f-6f0dde1b23e6 "HTTP/1.1 200 OK"
+2026-02-27 12:03:37 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/99a2d48e-e843-45cb-890f-6f0dde1b23e6 "HTTP/1.1 200 OK"
+2026-02-27 12:03:41 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/99a2d48e-e843-45cb-890f-6f0dde1b23e6 "HTTP/1.1 200 OK"
+2026-02-27 12:03:44 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/99a2d48e-e843-45cb-890f-6f0dde1b23e6 "HTTP/1.1 200 OK"
+2026-02-27 12:03:48 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/99a2d48e-e843-45cb-890f-6f0dde1b23e6 "HTTP/1.1 200 OK"
+2026-02-27 12:03:49 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:44.400651
+2026-02-27 12:05:32 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 12:05:33 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.349221
+2026-02-27 12:05:37 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 12:05:38 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 12:05:38 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/62621300-ff17-406e-aa8d-acafcad4f71d "HTTP/1.1 200 OK"
+2026-02-27 12:05:41 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/62621300-ff17-406e-aa8d-acafcad4f71d "HTTP/1.1 200 OK"
+2026-02-27 12:05:45 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/62621300-ff17-406e-aa8d-acafcad4f71d "HTTP/1.1 200 OK"
+2026-02-27 12:05:49 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/62621300-ff17-406e-aa8d-acafcad4f71d "HTTP/1.1 200 OK"
+2026-02-27 12:05:49 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:16.777351
+2026-02-27 12:07:42 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 12:07:42 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.368194
+2026-02-27 12:08:05 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 12:08:06 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 12:08:06 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0abb267-c94a-4c25-b922-f187ba85de50 "HTTP/1.1 200 OK"
+2026-02-27 12:08:09 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0abb267-c94a-4c25-b922-f187ba85de50 "HTTP/1.1 200 OK"
+2026-02-27 12:08:13 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0abb267-c94a-4c25-b922-f187ba85de50 "HTTP/1.1 200 OK"
+2026-02-27 12:08:16 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0abb267-c94a-4c25-b922-f187ba85de50 "HTTP/1.1 200 OK"
+2026-02-27 12:08:17 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:35.256199
+2026-02-27 12:10:48 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 12:10:48 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.364911
+2026-02-27 12:11:18 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 12:11:19 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 12:11:19 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0c5d65b9-f93a-48c4-8906-67ac81f5ce02 "HTTP/1.1 200 OK"
+2026-02-27 12:11:23 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0c5d65b9-f93a-48c4-8906-67ac81f5ce02 "HTTP/1.1 200 OK"
+2026-02-27 12:11:26 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0c5d65b9-f93a-48c4-8906-67ac81f5ce02 "HTTP/1.1 200 OK"
+2026-02-27 12:11:30 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/0c5d65b9-f93a-48c4-8906-67ac81f5ce02 "HTTP/1.1 200 OK"
+2026-02-27 12:11:30 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:42.795276
+2026-02-27 12:22:30 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 12:22:30 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.575902
+2026-02-27 12:22:51 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 12:22:52 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 12:22:52 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/a4ae0321-697f-4ae1-97ab-5c92ad455e1c "HTTP/1.1 200 OK"
+2026-02-27 12:22:55 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/a4ae0321-697f-4ae1-97ab-5c92ad455e1c "HTTP/1.1 200 OK"
+2026-02-27 12:22:59 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/a4ae0321-697f-4ae1-97ab-5c92ad455e1c "HTTP/1.1 200 OK"
+2026-02-27 12:23:02 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/a4ae0321-697f-4ae1-97ab-5c92ad455e1c "HTTP/1.1 200 OK"
+2026-02-27 12:23:06 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/a4ae0321-697f-4ae1-97ab-5c92ad455e1c "HTTP/1.1 200 OK"
+2026-02-27 12:23:06 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:36.694377
+2026-02-27 12:34:28 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 12:34:28 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.391641
+2026-02-27 12:34:40 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 12:34:41 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 12:34:41 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/00f55e6a-fd2f-4c7d-81c5-20c4cfbdb387 "HTTP/1.1 200 OK"
+2026-02-27 12:34:45 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/00f55e6a-fd2f-4c7d-81c5-20c4cfbdb387 "HTTP/1.1 200 OK"
+2026-02-27 12:34:48 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/00f55e6a-fd2f-4c7d-81c5-20c4cfbdb387 "HTTP/1.1 200 OK"
+2026-02-27 12:34:52 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/00f55e6a-fd2f-4c7d-81c5-20c4cfbdb387 "HTTP/1.1 200 OK"
+2026-02-27 12:34:55 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/00f55e6a-fd2f-4c7d-81c5-20c4cfbdb387 "HTTP/1.1 200 OK"
+2026-02-27 12:34:57 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:28.995008
+2026-02-27 12:41:29 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 12:41:30 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.592874
+2026-02-27 12:41:51 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 12:41:51 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 12:41:52 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/2f31e9d9-695d-4f98-8dc5-bacdaed67b5b "HTTP/1.1 200 OK"
+2026-02-27 12:41:57 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/2f31e9d9-695d-4f98-8dc5-bacdaed67b5b "HTTP/1.1 200 OK"
+2026-02-27 12:42:00 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/2f31e9d9-695d-4f98-8dc5-bacdaed67b5b "HTTP/1.1 200 OK"
+2026-02-27 12:42:06 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/2f31e9d9-695d-4f98-8dc5-bacdaed67b5b "HTTP/1.1 200 OK"
+2026-02-27 12:42:21 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:51.577567
+2026-02-27 13:12:39 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 13:12:40 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:01.000685
+2026-02-27 13:12:46 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 13:12:46 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 13:12:48 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9efb5373-2307-4e4f-bb76-266144bf0c96 "HTTP/1.1 200 OK"
+2026-02-27 13:12:51 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9efb5373-2307-4e4f-bb76-266144bf0c96 "HTTP/1.1 200 OK"
+2026-02-27 13:12:55 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9efb5373-2307-4e4f-bb76-266144bf0c96 "HTTP/1.1 200 OK"
+2026-02-27 13:13:00 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9efb5373-2307-4e4f-bb76-266144bf0c96 "HTTP/1.1 200 OK"
+2026-02-27 13:13:11 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:32.318645
+2026-02-27 13:13:11 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 13:13:12 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.352682
+2026-02-27 13:13:13 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 13:13:13 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 13:13:14 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/91fea098-dd0b-41c8-a691-138944e6c6f5 "HTTP/1.1 200 OK"
+2026-02-27 13:13:18 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/91fea098-dd0b-41c8-a691-138944e6c6f5 "HTTP/1.1 200 OK"
+2026-02-27 13:13:21 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/91fea098-dd0b-41c8-a691-138944e6c6f5 "HTTP/1.1 200 OK"
+2026-02-27 13:13:25 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/91fea098-dd0b-41c8-a691-138944e6c6f5 "HTTP/1.1 200 OK"
+2026-02-27 13:13:37 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:25.473467
+2026-02-27 13:15:27 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 13:15:28 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.366142
+2026-02-27 13:15:37 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 13:15:40 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 13:15:40 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/dd16b7a8-217c-4e25-97ec-663c80dcc34b "HTTP/1.1 200 OK"
+2026-02-27 13:15:44 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/dd16b7a8-217c-4e25-97ec-663c80dcc34b "HTTP/1.1 200 OK"
+2026-02-27 13:15:47 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/dd16b7a8-217c-4e25-97ec-663c80dcc34b "HTTP/1.1 200 OK"
+2026-02-27 13:15:55 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:27.936519
+2026-02-27 13:21:16 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 13:21:16 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:00.375063
+2026-02-27 13:21:44 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 13:21:45 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 13:21:45 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/75e46fe2-85fe-4dd5-adba-14fc880b70e2 "HTTP/1.1 200 OK"
+2026-02-27 13:21:48 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/75e46fe2-85fe-4dd5-adba-14fc880b70e2 "HTTP/1.1 200 OK"
+2026-02-27 13:21:53 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/75e46fe2-85fe-4dd5-adba-14fc880b70e2 "HTTP/1.1 200 OK"
+2026-02-27 13:21:56 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/75e46fe2-85fe-4dd5-adba-14fc880b70e2 "HTTP/1.1 200 OK"
+2026-02-27 13:22:01 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/75e46fe2-85fe-4dd5-adba-14fc880b70e2 "HTTP/1.1 200 OK"
+2026-02-27 13:22:11 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:55.608598
+2026-02-27 14:20:35 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 14:20:37 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:01.899194
+2026-02-27 14:20:42 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 14:20:42 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 14:20:42 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:20:45 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:20:49 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:20:52 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:20:55 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:20:59 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:21:02 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:21:05 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:21:09 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:21:12 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:21:15 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:21:18 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:21:22 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/39291605-70a4-40aa-a85b-42c580a977a0 "HTTP/1.1 200 OK"
+2026-02-27 14:21:23 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:48.154616
+2026-02-27 14:29:14 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 14:29:16 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:01.875633
+2026-02-27 14:29:21 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 14:29:22 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 14:29:23 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:29:26 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:29:30 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:29:33 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:29:36 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:29:41 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:29:45 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:29:48 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:29:52 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:29:57 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/973edabd-c439-43c7-a33b-6bc12d7bcb29 "HTTP/1.1 200 OK"
+2026-02-27 14:30:32 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:01:18.273572
+2026-02-27 14:42:51 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 14:42:53 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:01.912103
+2026-02-27 14:42:59 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 14:42:59 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 14:43:00 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d7e6a081-74a1-4edb-9fb1-520f6350b2de "HTTP/1.1 200 OK"
+2026-02-27 14:43:04 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d7e6a081-74a1-4edb-9fb1-520f6350b2de "HTTP/1.1 200 OK"
+2026-02-27 14:43:07 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d7e6a081-74a1-4edb-9fb1-520f6350b2de "HTTP/1.1 200 OK"
+2026-02-27 14:43:11 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d7e6a081-74a1-4edb-9fb1-520f6350b2de "HTTP/1.1 200 OK"
+2026-02-27 14:43:14 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d7e6a081-74a1-4edb-9fb1-520f6350b2de "HTTP/1.1 200 OK"
+2026-02-27 14:43:18 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/d7e6a081-74a1-4edb-9fb1-520f6350b2de "HTTP/1.1 200 OK"
+2026-02-27 14:43:37 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:00:46.189033
+2026-02-27 14:55:41 | [INFO] | captions_router.py | get_assemblyai_transcripts | Starting with assembly AI
+2026-02-27 14:55:43 | [INFO] | captions_router.py | get_assemblyai_transcripts | Conversion time 0:00:01.945055
+2026-02-27 14:55:49 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2026-02-27 14:55:49 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2026-02-27 14:55:50 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9ac002d9-f07f-459f-911e-218e3975123a "HTTP/1.1 200 OK"
+2026-02-27 14:55:53 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9ac002d9-f07f-459f-911e-218e3975123a "HTTP/1.1 200 OK"
+2026-02-27 14:55:56 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9ac002d9-f07f-459f-911e-218e3975123a "HTTP/1.1 200 OK"
+2026-02-27 14:56:00 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9ac002d9-f07f-459f-911e-218e3975123a "HTTP/1.1 200 OK"
+2026-02-27 14:56:04 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9ac002d9-f07f-459f-911e-218e3975123a "HTTP/1.1 200 OK"
+2026-02-27 14:56:07 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9ac002d9-f07f-459f-911e-218e3975123a "HTTP/1.1 200 OK"
+2026-02-27 14:56:12 | [INFO] | _client.py | _send_single_request | HTTP Request: GET https://api.assemblyai.com/v2/transcript/9ac002d9-f07f-459f-911e-218e3975123a "HTTP/1.1 200 OK"
+2026-02-27 14:56:53 | [INFO] | captions_router.py | get_assemblyai_transcripts | Ending Process. Total Time Taken : 0:01:12.271199
+2026-03-03 10:18:56 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.933014
+2026-03-03 10:22:51 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.549718
+2026-03-03 10:53:07 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.893583
+2026-03-03 10:53:07 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:00:00.893583
+2026-03-03 10:55:35 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.985291
+2026-03-03 10:55:35 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:00:00.995781
+2026-03-03 11:18:51 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:01.095068
+2026-03-03 11:18:51 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:00:01.097076
+2026-03-03 11:25:21 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:51.669020
+2026-03-03 11:25:32 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:01.160450
+2026-03-03 11:25:32 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:00:01.160450
+2026-03-03 11:26:02 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:01.035786
+2026-03-03 11:26:02 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:00:01.035786
+2026-03-03 11:26:24 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:01.087919
+2026-03-03 11:26:24 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:00:01.087919
+2026-03-03 11:29:38 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.651833
+2026-03-03 11:34:02 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.646552
+2026-03-03 11:34:02 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:00:00.648368
+2026-03-03 11:34:25 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.603506
+2026-03-03 11:34:25 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:00:00.603506
+2026-03-03 11:34:53 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.609948
+2026-03-03 11:40:02 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.632551
+2026-03-03 11:45:04 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.089788
+2026-03-03 11:46:34 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.089897
+2026-03-03 11:48:13 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.301256
+2026-03-03 11:48:13 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:00:00.301256
+2026-03-03 11:58:31 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.235907
+2026-03-03 11:58:31 | [INFO] | azure_speech_diarizaiton.py | _conversation_transcriber_session_started_cb | SessionStarted event
+2026-03-03 12:00:14 | [INFO] | azure_speech_diarizaiton.py | _conversation_transcriber_recognition_canceled_cb | Canceled event
+2026-03-03 12:00:14 | [INFO] | azure_speech_diarizaiton.py | _stop_cb | CLOSING on ConversationTranscriptionCanceledEventArgs(session_id=ea528a9adf664c76ba68b3fbaf488b98, result=ConversationTranscriptionResult(result_id=12bf6b5fd4b6456fa1476def47614a2d, speaker_id=, text=, reason=ResultReason.Canceled))
+2026-03-03 12:00:14 | [INFO] | azure_speech_diarizaiton.py | _conversation_transcriber_session_stopped_cb | SessionStopped event
+2026-03-03 12:00:14 | [INFO] | azure_speech_diarizaiton.py | _stop_cb | CLOSING on SessionEventArgs(session_id=ea528a9adf664c76ba68b3fbaf488b98)
+2026-03-03 12:00:16 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:01:44.986842
+2026-03-03 15:22:56 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:22:56 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.203754
+2026-03-03 15:22:56 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:23:07 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:24:21 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:24:21 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.204061
+2026-03-03 15:24:21 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:24:58 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:25:06 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:44.896644
+2026-03-03 15:37:14 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:37:15 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.042972
+2026-03-03 15:37:15 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:37:36 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:37:37 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:21.333139
+2026-03-03 15:38:38 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:38:38 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.432698
+2026-03-03 15:38:38 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:38:53 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:38:56 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:17.117427
+2026-03-03 15:39:34 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:39:35 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.416821
+2026-03-03 15:39:35 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:39:48 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:39:49 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:14.357457
+2026-03-03 15:43:17 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:43:18 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.120674
+2026-03-03 15:43:18 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:43:34 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:43:39 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:20.423076
+2026-03-03 15:44:38 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:44:39 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.433006
+2026-03-03 15:44:39 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:44:49 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:44:55 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:16.266988
+2026-03-03 15:46:57 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:46:58 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.437867
+2026-03-03 15:46:58 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:47:09 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:47:10 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:12.244060
+2026-03-03 15:47:49 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:47:49 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.227334
+2026-03-03 15:47:49 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:47:58 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:47:58 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:08.872357
+2026-03-03 15:50:27 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:50:28 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.453256
+2026-03-03 15:50:28 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:50:55 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:51:16 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:48.066447
+2026-03-03 15:52:46 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 15:52:47 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.412609
+2026-03-03 15:52:47 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 15:53:44 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 15:53:45 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:58.303627
+2026-03-03 16:10:49 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 16:10:50 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.425330
+2026-03-03 16:10:50 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 16:11:08 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 16:11:09 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:19.336637
+2026-03-03 16:26:44 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 16:26:44 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.449813
+2026-03-03 16:26:44 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 16:27:00 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 16:27:04 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:20.194387
+2026-03-03 16:30:21 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 16:30:22 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.146599
+2026-03-03 16:30:22 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 16:30:32 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 16:30:32 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:10.547450
+2026-03-03 16:41:36 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.409675
+2026-03-03 16:41:36 | [INFO] | azure_speech_diarizaiton.py | _conversation_transcriber_session_started_cb | SessionStarted event
+2026-03-03 16:44:13 | [INFO] | azure_speech_diarizaiton.py | _conversation_transcriber_recognition_canceled_cb | Canceled event
+2026-03-03 16:44:13 | [INFO] | azure_speech_diarizaiton.py | _stop_cb | CLOSING on ConversationTranscriptionCanceledEventArgs(session_id=5334469549484e5cbe6ebe32b6429d09, result=ConversationTranscriptionResult(result_id=b0bdabbb00154d79b3290bdf0e5c9f4d, speaker_id=, text=, reason=ResultReason.Canceled))
+2026-03-03 16:44:13 | [INFO] | azure_speech_diarizaiton.py | _conversation_transcriber_session_stopped_cb | SessionStopped event
+2026-03-03 16:44:13 | [INFO] | azure_speech_diarizaiton.py | _stop_cb | CLOSING on SessionEventArgs(session_id=5334469549484e5cbe6ebe32b6429d09)
+2026-03-03 16:44:13 | [INFO] | azure_diarization_router.py | get_captions | Ending Process. Total Time Taken : 0:02:37.399760
+2026-03-03 17:12:13 | [INFO] | azure_diarization_router.py | get_captions | Conversion time 0:00:00.419165
+2026-03-03 17:12:13 | [INFO] | azure_speech_diarizaiton.py | _conversation_transcriber_session_started_cb | SessionStarted event
+2026-03-03 17:23:41 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 17:23:42 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.054598
+2026-03-03 17:23:42 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 17:23:53 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 17:24:03 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:21.267373
+2026-03-03 17:29:35 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-03 17:29:36 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.098988
+2026-03-03 17:29:36 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-03 17:31:35 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-03 17:31:36 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:59.660556
+2026-03-03 17:31:43 | [ERROR] | base_events.py | default_exception_handler | Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\SkandaSankarRaman\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\SkandaSankarRaman\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-03 17:33:45 | [ERROR] | base_events.py | default_exception_handler | Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\SkandaSankarRaman\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\SkandaSankarRaman\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-04 10:26:16 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 10:26:16 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.698796
+2026-03-04 10:26:16 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 10:26:20 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&filler_words=true&language=en&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 401 Unauthorized"
+2026-03-04 10:34:43 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 10:34:43 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.392342
+2026-03-04 10:34:43 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 10:34:47 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 401 Unauthorized"
+2026-03-04 10:39:08 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 10:39:08 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.414881
+2026-03-04 10:39:08 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 10:39:12 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 401 Unauthorized"
+2026-03-04 10:41:00 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 10:41:00 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.416523
+2026-03-04 10:41:00 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 10:41:04 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 401 Unauthorized"
+2026-03-04 10:42:13 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 10:42:13 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.405162
+2026-03-04 10:42:13 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 10:42:17 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 401 Unauthorized"
+2026-03-04 10:45:17 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 10:45:17 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.416902
+2026-03-04 10:45:17 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 10:45:26 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 10:45:27 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:09.614122
+2026-03-04 11:03:50 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 11:03:51 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.394105
+2026-03-04 11:03:51 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 11:04:01 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 11:04:02 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:11.452885
+2026-03-04 11:05:03 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 11:05:04 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.383471
+2026-03-04 11:05:04 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 11:05:14 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 11:05:15 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:11.111554
+2026-03-04 11:08:49 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 11:08:49 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.400521
+2026-03-04 11:08:49 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 11:08:56 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 11:08:57 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:07.514361
+2026-03-04 11:12:14 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 11:12:14 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.383303
+2026-03-04 11:12:14 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 11:12:25 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 11:12:26 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:11.916646
+2026-03-04 11:37:26 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 11:37:27 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.399938
+2026-03-04 11:37:27 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 11:37:33 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 11:37:34 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:07.181564
+2026-03-04 11:38:43 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 11:38:43 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.401967
+2026-03-04 11:38:43 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 11:39:07 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 11:39:08 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:24.510791
+2026-03-04 12:03:05 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 12:04:09 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 12:04:45 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 12:06:07 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 12:06:07 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.394326
+2026-03-04 12:06:07 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 12:06:34 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true&utterances=true "HTTP/1.1 200 OK"
+2026-03-04 12:06:36 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:28.174206
+2026-03-04 12:31:13 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 12:31:14 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.381386
+2026-03-04 12:31:14 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 12:31:31 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true&utterances=true "HTTP/1.1 200 OK"
+2026-03-04 12:31:32 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:18.035818
+2026-03-04 12:33:12 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 12:33:12 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.383084
+2026-03-04 12:33:12 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 12:33:56 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&profanity_filter=true&punctuate=true&smart_format=true&utterances=true "HTTP/1.1 200 OK"
+2026-03-04 12:33:57 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:44.519744
+2026-03-04 12:43:56 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 12:43:57 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.374068
+2026-03-04 12:43:57 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 12:44:11 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 12:44:12 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:15.062416
+2026-03-04 12:45:42 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 12:45:43 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.385908
+2026-03-04 12:45:43 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 12:46:00 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 12:46:01 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:18.200359
+2026-03-04 12:51:01 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 12:51:02 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.381147
+2026-03-04 12:51:02 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 12:51:43 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 12:51:44 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:42.136037
+2026-03-04 14:05:58 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 14:05:58 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.464648
+2026-03-04 14:05:58 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 14:06:27 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 14:07:58 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 14:07:58 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.493376
+2026-03-04 14:07:58 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 14:08:39 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 14:09:51 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 14:09:51 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.460762
+2026-03-04 14:09:51 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 14:10:04 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 14:10:05 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:14.025573
+2026-03-04 14:13:00 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 14:13:01 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.449272
+2026-03-04 14:13:01 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 14:14:18 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 14:14:22 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:21.030685
+2026-03-04 14:16:52 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 14:16:52 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.428908
+2026-03-04 14:16:52 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 14:17:28 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 14:17:28 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:36.009068
+2026-03-04 14:19:27 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 14:19:27 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.423382
+2026-03-04 14:19:27 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 14:19:42 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 14:19:44 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:16.894508
+2026-03-04 14:21:33 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 14:21:33 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.422300
+2026-03-04 14:21:33 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 14:21:51 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 14:21:52 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:19.060517
+2026-03-04 14:29:40 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 14:29:40 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.448848
+2026-03-04 14:29:40 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 14:29:54 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 14:29:55 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:14.599916
+2026-03-04 14:54:25 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 14:54:25 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.478929
+2026-03-04 14:54:25 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 14:55:16 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 14:55:54 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:28.128900
+2026-03-04 15:02:47 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:02:48 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.425211
+2026-03-04 15:02:48 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:03:04 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:03:06 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:18.176353
+2026-03-04 15:17:08 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:17:09 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.430595
+2026-03-04 15:17:09 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:17:26 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:17:47 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:38.361802
+2026-03-04 15:35:52 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:35:52 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.448228
+2026-03-04 15:35:52 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:36:09 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:36:13 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:21.050054
+2026-03-04 15:39:17 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:39:18 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.417890
+2026-03-04 15:39:18 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:39:36 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:41:03 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:41:03 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.124698
+2026-03-04 15:41:03 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:41:10 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:43:49 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:43:49 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.086449
+2026-03-04 15:43:49 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:43:58 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:45:44 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:45:44 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.086430
+2026-03-04 15:45:44 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:45:50 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:47:44 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:47:44 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.434948
+2026-03-04 15:47:44 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:49:15 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:49:17 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:32.930599
+2026-03-04 15:52:48 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:52:49 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.408813
+2026-03-04 15:52:49 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:53:04 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:53:08 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:19.222862
+2026-03-04 15:54:13 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:54:14 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.048826
+2026-03-04 15:54:14 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:54:27 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:54:31 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:16.896109
+2026-03-04 15:57:31 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:57:32 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.413396
+2026-03-04 15:57:32 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:57:49 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:57:49 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:17.341913
+2026-03-04 15:59:11 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 15:59:11 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.414073
+2026-03-04 15:59:11 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 15:59:29 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 15:59:30 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:19.456000
+2026-03-04 16:01:36 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 16:01:37 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.410620
+2026-03-04 16:01:37 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 16:01:52 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 16:01:53 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:16.369840
+2026-03-04 16:35:04 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 16:35:05 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.456683
+2026-03-04 16:35:05 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 16:35:54 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 401 Unauthorized"
+2026-03-04 16:37:30 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 16:37:30 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.419112
+2026-03-04 16:37:30 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 16:38:07 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 401 Unauthorized"
