@@ -2,6 +2,7 @@ from deepgram import DeepgramClient
 from pathlib import Path
 import logging
 import os
+import json
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
@@ -17,6 +18,8 @@ class DeepgramDiarizations:
         try:
             captions = []
 
+            words = []
+
             text = ""
             speaker = 999
             start = 0.0
@@ -25,6 +28,10 @@ class DeepgramDiarizations:
             punctuation_symbols_list = [".","?","!","\"","'","`"]
                 
             for i,item in enumerate(words_list):
+                words.append({
+                    "word" : item.punctuated_word,
+                    "speaker" : item.speaker
+                })
                 text += f" {item.punctuated_word}"
                 if i == 0:
                     start = item.start
@@ -56,6 +63,10 @@ class DeepgramDiarizations:
                         text = ""
                     else:
                         continue
+
+            
+            with open("saver2.json","w") as f:
+                json.dump(words,f)
             return captions
         except Exception:
             raise
@@ -75,6 +86,7 @@ class DeepgramDiarizations:
                     smart_format=True,
                     diarize=True,
                     punctuate=True,
+                    multichannel=True
                     
                 )
 

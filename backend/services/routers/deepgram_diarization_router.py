@@ -77,6 +77,7 @@ async def extract_first_speaker_segments(payload : GetSegmentsInput):
     try:
         audio_file = payload.audio_file
         diarization = payload.diarization
+        all_speakers = {d["speaker"] for d in diarization}
         seen_speakers = set()
         tasks = []
         results = {}
@@ -129,6 +130,34 @@ async def extract_first_speaker_segments(payload : GetSegmentsInput):
                     "-i", audio_file,
                     "-ss", str(start),
                     "-t", str(duration),
+                    "-c", "copy",
+                    str(out_file)
+                ]
+
+                tasks.append(
+                    {
+                        "speaker": speaker,
+                        "file": (out_file),
+                        "task": _run_ffmpeg(cmd)
+                    }
+                )
+        
+        
+        for segment in diarization:
+            unvisited_speakers = all_speakers-seen_speakers
+            if not unvisited_speakers:
+                break
+            if segment["speaker"] not in unvisited_speakers:
+                continue
+            else:
+                out_file = UPLOAD_DIR / "speakers" / f"{speaker}.flac"
+
+                cmd = [
+                    "ffmpeg",
+                    "-y",
+                    "-i", audio_file,
+                    "-ss", str(float(segment["timestamp"]["start"])),
+                    "-t", str(float(segment["timestamp"]["start"])),
                     "-c", "copy",
                     str(out_file)
                 ]
