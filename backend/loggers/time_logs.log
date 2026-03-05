@@ -929,3 +929,46 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2026-03-04 16:37:30 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.419112
 2026-03-04 16:37:30 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
 2026-03-04 16:38:07 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 401 Unauthorized"
+2026-03-04 16:46:44 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 16:46:45 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.440553
+2026-03-04 16:46:45 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 16:48:04 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 16:48:04 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:19.478804
+2026-03-04 17:01:50 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 17:01:51 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.479360
+2026-03-04 17:01:51 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 17:02:35 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 17:02:36 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:45.080580
+2026-03-04 17:17:43 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 17:17:43 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.530179
+2026-03-04 17:17:43 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 17:17:58 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 17:18:00 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:16.758061
+2026-03-04 17:19:01 | [ERROR] | base_events.py | default_exception_handler | Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\SkandaSankarRaman\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\SkandaSankarRaman\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-04 17:24:45 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 17:24:46 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.509687
+2026-03-04 17:24:46 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 17:25:22 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 17:25:23 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:37.310748
+2026-03-04 17:32:12 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 17:32:12 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.445048
+2026-03-04 17:32:12 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 17:32:29 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 17:32:29 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:17.126100
+2026-03-04 17:51:25 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 17:51:26 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.420757
+2026-03-04 17:51:26 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 17:52:18 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 17:52:19 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:53.143433
+2026-03-04 17:53:46 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-04 17:53:46 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.325085
+2026-03-04 17:53:46 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-04 17:54:10 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-04 17:54:11 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:24.480361
