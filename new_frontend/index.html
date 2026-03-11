@@ -8,6 +8,25 @@
 </head>
 <body>
 
+  <!-- Unnamed Speakers Modal -->
+  <div class="modal-overlay" id="unnamedSpeakersModal">
+    <div class="modal">
+      <div class="modal-icon modal-icon-warning">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="12" y1="8" x2="12" y2="12"/>
+          <line x1="12" y1="16" x2="12.01" y2="16"/>
+        </svg>
+      </div>
+      <h3>Unnamed Speakers</h3>
+      <p id="unnamedSpeakersMsg">Some speakers have not been named yet. You can go back to assign names or download anyway.</p>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" id="goBackNamingBtn">Go Back</button>
+        <button class="btn btn-primary" id="downloadAnywayBtn">Download Anyway</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Confirmation Modal -->
   <div class="modal-overlay" id="confirmModal">
     <div class="modal">
@@ -112,14 +131,37 @@
           </div>
         </aside>
 
-        <!-- Main: Captions -->
+        <!-- Main: Captions / Summary -->
         <div class="captions-panel">
           <div class="captions-header">
-            <h2>Meeting Captions</h2>
+            <div class="tab-buttons">
+              <button class="tab-btn active" id="tabCaptions" data-tab="captions">Meeting Captions</button>
+              <button class="tab-btn" id="tabSummary" data-tab="summary">Meeting Summary</button>
+            </div>
             <span class="caption-count" id="captionCount">0 segments</span>
           </div>
           <div class="captions-list" id="captionsList">
-            <!-- Dynamically populated -->
+            <!-- Dynamically populated captions -->
+          </div>
+          <div class="summary-view" id="summaryView" style="display:none;">
+            <div class="summary-loading" id="summaryLoading" style="display:none;">
+              <div class="spinner"></div>
+              <p>Generating meeting summary...</p>
+            </div>
+            <div class="summary-content" id="summaryContent" style="display:none;">
+              <div class="summary-section">
+                <h3>Summary</h3>
+                <p id="summaryText"></p>
+              </div>
+              <div class="summary-section" id="actionItemsSection" style="display:none;">
+                <h3>Action Items</h3>
+                <ul id="actionItemsList"></ul>
+              </div>
+            </div>
+            <div class="summary-error" id="summaryError" style="display:none;">
+              <p>Failed to generate summary.</p>
+              <button class="btn btn-primary btn-sm" id="retrySummaryBtn">Retry</button>
+            </div>
           </div>
         </div>
       </div>

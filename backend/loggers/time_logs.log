@@ -1078,3 +1078,74 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2026-03-10 18:02:32 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-03-10 18:04:03 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-03-10 18:04:27 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-11 15:22:36 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-11 15:22:37 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.572610
+2026-03-11 15:22:37 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-11 15:23:25 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-11 15:23:29 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:52.016167
+2026-03-11 16:07:36 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-11 16:07:37 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.333093
+2026-03-11 16:07:37 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-11 16:08:03 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-11 16:08:04 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:27.373163
+2026-03-11 16:09:05 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-11 16:11:01 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-11 16:11:02 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.342897
+2026-03-11 16:11:02 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-11 16:12:59 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-11 16:13:04 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:02:02.596991
+2026-03-11 16:13:35 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Starting Summarization
+2026-03-11 16:23:09 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-11 16:23:09 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.611901
+2026-03-11 16:23:09 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-11 16:23:20 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-11 16:23:21 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:11.981977
+2026-03-11 16:28:57 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Starting Summarization
+2026-03-11 16:28:57 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Used 1659 input tokens.
+2026-03-11 16:29:01 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.core42.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-11 16:29:01 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Ending Summarization. Total Time Taken 0:00:04.456501
+2026-03-11 16:32:54 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-11 16:32:54 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.405266
+2026-03-11 16:32:54 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-11 16:33:41 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-11 16:33:42 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:47.956180
+2026-03-11 16:34:10 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Starting Summarization
+2026-03-11 16:34:10 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Used 1737 input tokens.
+2026-03-11 16:34:15 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.core42.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-11 16:34:15 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Ending Summarization. Total Time Taken 0:00:05.512555
+2026-03-11 16:35:03 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Starting Summarization
+2026-03-11 16:35:03 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Used 1666 input tokens.
+2026-03-11 16:35:06 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.core42.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-11 16:35:06 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Ending Summarization. Total Time Taken 0:00:03.065512
+2026-03-11 17:00:15 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-11 17:00:16 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.367915
+2026-03-11 17:00:16 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-11 17:00:34 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-11 17:01:48 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:32.312165
+2026-03-11 17:03:06 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Starting Summarization
+2026-03-11 17:03:06 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Used 1735 input tokens.
+2026-03-11 17:03:11 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.core42.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-11 17:03:11 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Ending Summarization. Total Time Taken 0:00:04.116516
+2026-03-11 17:14:59 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-11 17:14:59 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.399465
+2026-03-11 17:14:59 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-11 17:15:18 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-11 17:15:26 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:26.187875
+2026-03-11 17:18:37 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-11 17:18:37 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.400852
+2026-03-11 17:18:37 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-11 17:19:00 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-11 17:19:07 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:29.922794
+2026-03-11 17:19:11 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Starting Summarization
+2026-03-11 17:19:11 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Used 1735 input tokens.
+2026-03-11 17:19:15 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.core42.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-11 17:19:15 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Ending Summarization. Total Time Taken 0:00:03.177208
+2026-03-11 17:20:42 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-11 17:20:43 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.133864
+2026-03-11 17:20:43 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-11 17:21:27 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-11 17:21:46 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:02.712076
+2026-03-11 17:22:01 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Starting Summarization
+2026-03-11 17:22:01 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Used 9014 input tokens.
+2026-03-11 17:22:07 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.core42.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-11 17:22:07 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Ending Summarization. Total Time Taken 0:00:05.460908

@@ -12,6 +12,10 @@
   let audioElements = {}; // Audio() instances per speaker
   let isSeeking = {}; // track seeking state per speaker
   let hasData = false;
+  let summaryData = null; // cached summary { summary: "...", action_items: [...] }
+  let summaryLoaded = false; // whether summary has been fetched
+  let summaryLoading = false; // whether summary is currently being fetched
+  let activeTab = "captions"; // "captions" or "summary"
 
   // ---- DOM refs ----
   const uploadSection = document.getElementById("uploadSection");
@@ -69,6 +73,10 @@
       audioElements = {};
       isSeeking = {};
       hasData = false;
+      summaryData = null;
+      summaryLoaded = false;
+      summaryLoading = false;
+      activeTab = "captions";
     } catch (err) {
       console.error("[v0] Error clearing persistence:", err);
     }
@@ -256,6 +264,10 @@
       speakerMap[speaker] = e.target.value;
       savePersistence();
       renderCaptions();
+      // Also update summary view if it's been loaded
+      if (summaryLoaded && summaryData) {
+        renderSummaryContent();
+      }
     } catch (err) {
       console.error("[v0] Error handling name change:", err);
     }
@@ -401,8 +413,114 @@
       console.log("[v0] showResults: downloadSummaryBtn disabled =", downloadSummaryBtn.disabled, downloadSummaryBtn);
       renderSpeakerCards();
       renderCaptions();
+      switchTab("captions");
     } catch (err) {
       console.error("[v0] Error showing results:", err);
+    }
+  }
+
+  // ---- Tab Switching ----
+  const tabCaptionsBtn = document.getElementById("tabCaptions");
+  const tabSummaryBtn = document.getElementById("tabSummary");
+  const captionsListEl = document.getElementById("captionsList");
+  const summaryViewEl = document.getElementById("summaryView");
+  const summaryLoadingEl = document.getElementById("summaryLoading");
+  const summaryContentEl = document.getElementById("summaryContent");
+  const summaryErrorEl = document.getElementById("summaryError");
+  const summaryTextEl = document.getElementById("summaryText");
+  const actionItemsListEl = document.getElementById("actionItemsList");
+  const actionItemsSectionEl = document.getElementById("actionItemsSection");
+  const retrySummaryBtn = document.getElementById("retrySummaryBtn");
+
+  function switchTab(tab) {
+    activeTab = tab;
+    tabCaptionsBtn.classList.toggle("active", tab === "captions");
+    tabSummaryBtn.classList.toggle("active", tab === "summary");
+    captionsListEl.style.display = tab === "captions" ? "" : "none";
+    summaryViewEl.style.display = tab === "summary" ? "" : "none";
+    captionCount.style.display = tab === "captions" ? "" : "none";
+
+    if (tab === "summary" && !summaryLoaded && !summaryLoading) {
+      fetchSummary();
+    }
+  }
+
+  tabCaptionsBtn.addEventListener("click", () => switchTab("captions"));
+  tabSummaryBtn.addEventListener("click", () => switchTab("summary"));
+  if (retrySummaryBtn) {
+    retrySummaryBtn.addEventListener("click", () => {
+      summaryLoaded = false;
+      summaryLoading = false;
+      summaryData = null;
+      fetchSummary();
+    });
+  }
+
+  async function fetchSummary() {
+    try {
+      summaryLoading = true;
+      summaryLoadingEl.style.display = "";
+      summaryContentEl.style.display = "none";
+      summaryErrorEl.style.display = "none";
+
+      const captions = captionsData.map((item) => ({
+        timestamp: item.timestamp,
+        speaker: getDisplayName(item.speaker),
+        text: item.text,
+      }));
+
+      const res = await fetch("http://127.0.0.1:8000/summarize/get_summary", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ captions }),
+      });
+
+      if (!res.ok) throw new Error("Failed to fetch summary");
+
+      summaryData = await res.json();
+      summaryLoaded = true;
+      summaryLoading = false;
+      renderSummaryContent();
+    } catch (err) {
+      console.error("[v0] Error fetching summary:", err);
+      summaryLoading = false;
+      summaryLoadingEl.style.display = "none";
+      summaryErrorEl.style.display = "";
+    }
+  }
+
+  function renderSummaryContent() {
+    summaryLoadingEl.style.display = "none";
+    summaryErrorEl.style.display = "none";
+    summaryContentEl.style.display = "";
+
+    // Replace speaker identifiers in summary text with current display names
+    let summaryText = summaryData.summary || "No summary available.";
+    const speakers = getUniqueSpeakers();
+    speakers.forEach((spk) => {
+      const name = getDisplayName(spk);
+      const regex = new RegExp(`Speaker ${spk}\\b`, "gi");
+      summaryText = summaryText.replace(regex, name);
+    });
+    summaryTextEl.textContent = summaryText;
+
+    if (summaryData.action_items && summaryData.action_items.filter(v => v && v.trim()).length > 0) {
+      actionItemsSectionEl.style.display = "";
+      actionItemsListEl.innerHTML = "";
+      summaryData.action_items.filter(v => v && v.trim()).forEach((item) => {
+        // Replace speaker refs in action items too
+        let itemText = item;
+        speakers.forEach((spk) => {
+          const name = getDisplayName(spk);
+          const regex = new RegExp(`Speaker ${spk}\\b`, "gi");
+          itemText = itemText.replace(regex, name);
+        });
+        const li = document.createElement("li");
+        li.textContent = itemText;
+        actionItemsListEl.appendChild(li);
+      });
+    } else {
+      actionItemsSectionEl.style.display = "none";
     }
   }
 
@@ -611,33 +729,86 @@
   // ---- New Upload ----
   newUploadBtn.addEventListener("click", triggerNewUpload);
 
+  // ---- Unnamed Speakers Modal ----
+  const unnamedSpeakersModal = document.getElementById("unnamedSpeakersModal");
+  const unnamedSpeakersMsg = document.getElementById("unnamedSpeakersMsg");
+  const goBackNamingBtn = document.getElementById("goBackNamingBtn");
+  const downloadAnywayBtn = document.getElementById("downloadAnywayBtn");
+  let pendingDownloadAction = null; // stores the function to call on "Download Anyway"
+
+  function getUnnamedSpeakers() {
+    const speakers = getUniqueSpeakers();
+    return speakers.filter((spk) => !speakerMap[spk] || !speakerMap[spk].trim());
+  }
+
+  function checkSpeakersBeforeDownload(downloadFn) {
+    const unnamed = getUnnamedSpeakers();
+    if (unnamed.length === 0) {
+      // All speakers named, proceed directly
+      downloadFn();
+    } else {
+      // Show warning modal
+      const labels = unnamed.map((spk) => `Speaker ${spk}`).join(", ");
+      unnamedSpeakersMsg.textContent = `The following speakers have not been named: ${labels}. You can go back to assign names or download anyway.`;
+      pendingDownloadAction = downloadFn;
+      unnamedSpeakersModal.classList.add("active");
+    }
+  }
+
+  goBackNamingBtn.addEventListener("click", () => {
+    unnamedSpeakersModal.classList.remove("active");
+    pendingDownloadAction = null;
+  });
+
+  downloadAnywayBtn.addEventListener("click", () => {
+    unnamedSpeakersModal.classList.remove("active");
+    if (pendingDownloadAction) {
+      pendingDownloadAction();
+      pendingDownloadAction = null;
+    }
+  });
+
   // ---- PDF Download ----
-  downloadPdfBtn.addEventListener("click", generatePdf);
-  downloadSummaryBtn.addEventListener("click", downloadSummary);
+  downloadPdfBtn.addEventListener("click", () => checkSpeakersBeforeDownload(generatePdf));
+  downloadSummaryBtn.addEventListener("click", () => checkSpeakersBeforeDownload(downloadSummary));
 
   async function downloadSummary() {
     try {
-      downloadSummaryBtn.disabled = false;
+      downloadSummaryBtn.disabled = true;
       downloadSummaryBtn.textContent = "Generating...";
 
-      // Build captions with speaker names applied
-      const captions = captionsData.map((item) => ({
-        timestamp: item.timestamp,
-        speaker: getDisplayName(item.speaker),
-        text: item.text,
-      }));
+      // Use cached summary or fetch if not available
+      let data = summaryData;
+      if (!data) {
+        const captions = captionsData.map((item) => ({
+          timestamp: item.timestamp,
+          speaker: getDisplayName(item.speaker),
+          text: item.text,
+        }));
 
-      const res = await fetch("http://127.0.0.1:8000/summarize_groq/get_summary", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ "captions" : captions }),
+        const res = await fetch("http://127.0.0.1:8000/summarize/get_summary", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ captions }),
+        });
+
+        if (!res.ok) throw new Error("Failed to fetch summary");
+        data = await res.json();
+        summaryData = data;
+        summaryLoaded = true;
+        summaryLoading = false;
+      }
+
+      // Apply current speaker names to summary text
+      const speakers = getUniqueSpeakers();
+      let summaryText = data.summary || "No summary available.";
+      speakers.forEach((spk) => {
+        const name = getDisplayName(spk);
+        const regex = new RegExp(`Speaker ${spk}\\b`, "gi");
+        summaryText = summaryText.replace(regex, name);
       });
 
-      if (!res.ok) throw new Error("Failed to fetch summary");
-
-      const data = await res.json();
-
-      // Build PDF with summary and action items
+      // Build PDF
       const { jsPDF } = window.jspdf;
       const doc = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
       const margin = 20;
@@ -645,14 +816,12 @@
       const usableWidth = pageWidth - margin * 2;
       let y = margin;
 
-      // Title
       doc.setFont("helvetica", "bold");
       doc.setFontSize(20);
       doc.setTextColor(30, 30, 46);
       doc.text("Meeting Summary", margin, y);
       y += 8;
 
-      // Date
       doc.setFont("helvetica", "normal");
       doc.setFontSize(10);
       doc.setTextColor(120, 120, 120);
@@ -663,7 +832,6 @@
       doc.line(margin, y, pageWidth - margin, y);
       y += 10;
 
-      // Summary
       doc.setFont("helvetica", "bold");
       doc.setFontSize(14);
       doc.setTextColor(15, 123, 108);
@@ -673,47 +841,38 @@
       doc.setFont("helvetica", "normal");
       doc.setFontSize(11);
       doc.setTextColor(30, 30, 46);
-      const summaryLines = doc.splitTextToSize(data.summary || "No summary available.", usableWidth);
+      const summaryLines = doc.splitTextToSize(summaryText, usableWidth);
       summaryLines.forEach((line) => {
-        if (y > doc.internal.pageSize.getHeight() - margin) {
-          doc.addPage();
-          y = margin;
-        }
+        if (y > doc.internal.pageSize.getHeight() - margin) { doc.addPage(); y = margin; }
         doc.text(line, margin, y);
         y += 5.5;
       });
-
       y += 8;
 
-      // Action Items
       if (data.action_items) {
-        if (y > doc.internal.pageSize.getHeight() - margin - 20) {
-          doc.addPage();
-          y = margin;
-        }
-
+        if (y > doc.internal.pageSize.getHeight() - margin - 20) { doc.addPage(); y = margin; }
         doc.setFont("helvetica", "bold");
         doc.setFontSize(14);
         doc.setTextColor(15, 123, 108);
         doc.text("Action Items", margin, y);
         y += 7;
-
         doc.setFont("helvetica", "normal");
         doc.setFontSize(11);
         doc.setTextColor(30, 30, 46);
-
-        const items = Object.values(data.action_items).filter((v) => v && v.trim());
+        const items = data.action_items.filter((v) => v && v.trim());
         if (items.length === 0) {
           doc.text("No action items identified.", margin, y);
-          y += 6;
         } else {
           items.forEach((item, idx) => {
-            const bulletLines = doc.splitTextToSize(`${idx + 1}. ${item}`, usableWidth - 4);
+            let itemText = item;
+            speakers.forEach((spk) => {
+              const name = getDisplayName(spk);
+              const regex = new RegExp(`Speaker ${spk}\\b`, "gi");
+              itemText = itemText.replace(regex, name);
+            });
+            const bulletLines = doc.splitTextToSize(`${idx + 1}. ${itemText}`, usableWidth - 4);
             bulletLines.forEach((line) => {
-              if (y > doc.internal.pageSize.getHeight() - margin) {
-                doc.addPage();
-                y = margin;
-              }
+              if (y > doc.internal.pageSize.getHeight() - margin) { doc.addPage(); y = margin; }
               doc.text(line, margin, y);
               y += 5.5;
             });

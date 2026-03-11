@@ -10,6 +10,7 @@ from services.routers.assemblyai_diarization_router import router as assemblyai_
 from services.routers.azure_diarization_router import router as azure_diarization_router
 from services.routers.deepgram_diarization_router import router as deepgram_diarization_router
 from services.routers.groq_summarization_router import router as groq_summarization_router
+from services.routers.core42_gpt_4_1_summarization_router import router as core42_gpt_4_1_summarization_router
 
 app = FastAPI(title="speech_diarization")
 
@@ -35,4 +36,5 @@ app.include_router(assemblyai_diarization_router)
 app.include_router(azure_diarization_router)
 app.include_router(deepgram_diarization_router)
 app.include_router(groq_summarization_router)
+app.include_router(core42_gpt_4_1_summarization_router)
 

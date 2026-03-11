@@ -63,10 +63,6 @@ class DeepgramDiarizations:
                         text = ""
                     else:
                         continue
-
-            
-            with open("saver2.json","w") as f:
-                json.dump(words,f)
             return captions
         except Exception:
             raise
@@ -93,6 +89,9 @@ class DeepgramDiarizations:
             captions = await self._process_returns(response.results.channels[0].alternatives[0].words)
             
             logger.info(f"Total Time Taken To Complete {datetime.now()-start_time}")
+
+            with open ("saver2.json","w") as f:
+                json.dump(captions,f)
 
             return captions
 
