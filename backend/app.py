@@ -9,6 +9,7 @@ from services.routers.whisper_pyannote_router import router as whisper_pyannote_
 from services.routers.assemblyai_diarization_router import router as assemblyai_diarization_router
 from services.routers.azure_diarization_router import router as azure_diarization_router
 from services.routers.deepgram_diarization_router import router as deepgram_diarization_router
+from services.routers.groq_summarization_router import router as groq_summarization_router
 
 app = FastAPI(title="speech_diarization")
 
@@ -33,4 +34,5 @@ app.include_router(whisper_pyannote_router)
 app.include_router(assemblyai_diarization_router)
 app.include_router(azure_diarization_router)
 app.include_router(deepgram_diarization_router)
+app.include_router(groq_summarization_router)
 

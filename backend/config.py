@@ -3,3 +3,7 @@ import os
 ASSEMBLY_AI_API = os.getenv("ASSEMBLYAI_API_KEY")
 UPLOAD_DIR = "./files"
 MAX_AUDIO_DURATION_SECS = 6240
+GROQ_API_KEY = os.getenv("GROQ_API_KEY_1")
+OPENAI_API_KEY = os.getenv("NEW_OPENAI_API_KEY")
+OPENAI_BASE_URL = "https://api.core42.ai/v1"
+DEEPGRAM_API_KEY = os.getenv("DEEPGRAM_KEY")

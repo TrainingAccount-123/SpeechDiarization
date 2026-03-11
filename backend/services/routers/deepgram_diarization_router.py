@@ -6,6 +6,9 @@ from datetime import datetime
 import asyncio
 from pydantic import BaseModel
 
+
+import json
+
 from services.utils.deepgram_diarization import DeepgramDiarizations
 from config import UPLOAD_DIR
 
@@ -55,6 +58,9 @@ async def get_captions(file : UploadFile = File(...)):
             logger.info(f"File Conversion completed in {datetime.now() - start_time}")
 
             captions = await deepgram_dia_obj.get_captions(str(filepath))
+
+            with open("saver.json","w") as f:
+                json.dump(captions,f)
 
             filepath.unlink()
 

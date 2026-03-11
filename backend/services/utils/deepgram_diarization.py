@@ -1,13 +1,13 @@
 from deepgram import DeepgramClient
 from pathlib import Path
 import logging
-import os
+from config import DEEPGRAM_API_KEY
 import json
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
-DEEPGRAM_API_KEY = os.getenv("DEEPGRAM_KEY")
+
 
 UPLOAD_DIR = Path("./files").resolve()
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
