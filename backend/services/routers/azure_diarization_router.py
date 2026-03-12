@@ -93,12 +93,13 @@ async def get_captions(file : UploadFile = File(...)):
 class GetSegmentsInput(BaseModel):
     audio_file: str
     diarization : list
-
+    
 @router.post("/get_audio_segments")
 async def extract_first_speaker_segments(payload : GetSegmentsInput):
     try:
         audio_file = payload.audio_file
         diarization = payload.diarization
+        all_speakers = {d["speaker"] for d in diarization}
         seen_speakers = set()
         tasks = []
         results = {}
@@ -127,6 +128,9 @@ async def extract_first_speaker_segments(payload : GetSegmentsInput):
             )
 
         for segment in diarization:
+            if len(diarization)>3:
+                if diarization.index(segment) in[0,1,2]:
+                    continue
             speaker = segment["speaker"]
             if speaker in seen_speakers:
                 continue
@@ -140,7 +144,7 @@ async def extract_first_speaker_segments(payload : GetSegmentsInput):
             else:
                 seen_speakers.add(speaker)
 
-                out_file = UPLOAD_DIR / "speakers" / f"{speaker}.mp3"
+                out_file = UPLOAD_DIR / "speakers" / f"{speaker}.flac"
 
                 cmd = [
                     "ffmpeg",
@@ -148,6 +152,34 @@ async def extract_first_speaker_segments(payload : GetSegmentsInput):
                     "-i", audio_file,
                     "-ss", str(start),
                     "-t", str(duration),
+                    "-c", "copy",
+                    str(out_file)
+                ]
+
+                tasks.append(
+                    {
+                        "speaker": speaker,
+                        "file": (out_file),
+                        "task": _run_ffmpeg(cmd)
+                    }
+                )
+        
+        
+        for segment in diarization:
+            unvisited_speakers = all_speakers-seen_speakers
+            if not unvisited_speakers:
+                break
+            if segment["speaker"] not in unvisited_speakers:
+                continue
+            else:
+                out_file = UPLOAD_DIR / "speakers" / f"{speaker}.flac"
+
+                cmd = [
+                    "ffmpeg",
+                    "-y",
+                    "-i", audio_file,
+                    "-ss", str(float(segment["timestamp"]["start"])),
+                    "-t", str(float(segment["timestamp"]["start"])),
                     "-c", "copy",
                     str(out_file)
                 ]
@@ -173,11 +205,8 @@ async def extract_first_speaker_segments(payload : GetSegmentsInput):
         Path(audio_file).unlink()
         return results
 
-    except RuntimeError as rte:
-        raise HTTPException(status_code=500, detail=f"{rte}")
-
     except Exception:
-        raise HTTPException(status_code=500,detail="Unexpected Error Occurred")
+        raise HTTPException(status_code=500,detail="Failed to Fetch Audio Segments")
             
 
         

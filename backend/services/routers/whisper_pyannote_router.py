@@ -59,3 +59,5 @@ async def get_captions(file: UploadFile = File(...)):
     except Exception:
         raise HTTPException(status_code=500,detail="Unexpected Error Occurred")
 
+
+
