@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 import asyncio
 from pydantic import BaseModel
-
+from config import ALLOWED_MIME_TYPES
 
 import json
 
@@ -23,6 +23,12 @@ UPLOAD_DIR = Path(UPLOAD_DIR)
 @router.post("/get_captions")
 async def get_captions(file : UploadFile = File(...)):
     try:
+        if file.content_type not in ALLOWED_MIME_TYPES:
+            raise HTTPException(
+                status_code=415,
+                detail="Unsupported file type: Only audio and video files are supported."
+            )
+
         start_time = datetime.now()
         logger.info("Starting Process")
 
@@ -52,7 +58,7 @@ async def get_captions(file : UploadFile = File(...)):
         )
 
         if result.returncode != 0:
-            raise RuntimeError(f"FFmpeg file conversion failed. File Either does not contain audio or is corrupted {result.stderr}")
+            raise RuntimeError("FFmpeg file conversion failed. File Either does not contain audio or is corrupted")
         
         else:
             logger.info(f"File Conversion completed in {datetime.now() - start_time}")
@@ -69,8 +75,11 @@ async def get_captions(file : UploadFile = File(...)):
     except RuntimeError as rte:
         raise HTTPException(status_code=422,detail=f"{rte}")
 
+    except HTTPException:
+        raise
+
     except Exception:
-        raise HTTPException(status_code=500,detail="Unexpected Error Occurred")
+        raise HTTPException(status_code=500,detail="Failed to Fetch Captions")
 
 
 class GetSegmentsInput(BaseModel):
@@ -189,8 +198,5 @@ async def extract_first_speaker_segments(payload : GetSegmentsInput):
         Path(audio_file).unlink()
         return results
 
-    except RuntimeError as rte:
-        raise HTTPException(status_code=500, detail=f"{rte}")
-
     except Exception:
-        raise HTTPException(status_code=500,detail="Unexpected Error Occurred")
+        raise HTTPException(status_code=500,detail="Failed to Fetch Audio Segments")

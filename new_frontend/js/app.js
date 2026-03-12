@@ -630,7 +630,10 @@
           body: formData,
         });
 
-        if (!captionsRes.ok) throw new Error("Failed to fetch captions");
+        if (!captionsRes.ok) {
+            const { detail } = await captionsRes.json();
+            throw new Error(`${detail}`);
+        }
 
         progressBarFill.style.width = "75%";
         uploadStatusText.textContent = "Loading audio segments...";
@@ -683,7 +686,7 @@
         }, 500);
       } catch (err) {
         console.error("[v0] Error processing file:", err);
-        uploadStatusText.textContent = "Error: " + err.message;
+        uploadStatusText.textContent = err.message;
         progressBarFill.style.width = "0%";
         setTimeout(() => {
           showUpload();

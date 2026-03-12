@@ -15,9 +15,7 @@ async def get_summary(payload : GetSummaryPayload):
         captions = payload.captions
         return await summary_generation_obj.summarize_meeting(captions)
 
-    # except Exception:
-    #     raise HTTPException(status_code=500, detail="Unexpected Error Occurred")
-    except ValueError:
-        raise
+    except Exception:
+        raise HTTPException(status_code=500, detail="Unexpected Error Occurred")
 
 
