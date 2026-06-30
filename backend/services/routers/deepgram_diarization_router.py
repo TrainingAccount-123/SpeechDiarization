@@ -78,8 +78,8 @@ async def get_captions(file : UploadFile = File(...)):
     except HTTPException:
         raise
 
-    except Exception:
-        raise HTTPException(status_code=500,detail="Failed to Fetch Captions")
+    except Exception as e:
+        raise HTTPException(status_code=500,detail=f"Failed to Fetch Captions {e}")
 
 
 class GetSegmentsInput(BaseModel):

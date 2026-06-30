@@ -1149,3 +1149,133 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2026-03-11 17:22:01 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Used 9014 input tokens.
 2026-03-11 17:22:07 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.core42.ai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-03-11 17:22:07 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Ending Summarization. Total Time Taken 0:00:05.460908
+2026-03-12 14:34:57 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 14:34:59 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.825202
+2026-03-12 14:34:59 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 14:35:34 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-12 14:35:36 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:36.862204
+2026-03-12 14:40:26 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Starting Summarization
+2026-03-12 14:40:27 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Used 9011 input tokens.
+2026-03-12 14:40:31 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.core42.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:40:31 | [INFO] | core42_gpt_4_1_summarization.py | summarize_meeting | Ending Summarization. Total Time Taken 0:00:05.218810
+2026-03-12 14:48:01 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 14:48:02 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.239881
+2026-03-12 14:48:02 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 15:15:32 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 15:15:32 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.282923
+2026-03-12 15:15:32 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 15:17:40 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-12 15:17:53 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:02:21.058267
+2026-03-12 15:19:49 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 15:19:50 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.083311
+2026-03-12 15:19:50 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 15:20:39 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-12 15:20:42 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:52.020595
+2026-03-12 15:23:56 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 15:23:56 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.223067
+2026-03-12 15:23:56 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 15:24:04 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-12 15:24:05 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:08.857852
+2026-03-12 15:25:41 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 15:25:42 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.083062
+2026-03-12 15:25:42 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 15:26:19 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&multichannel=true&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-12 15:26:21 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:38.859262
+2026-03-12 15:44:05 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 15:44:06 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.121094
+2026-03-12 15:44:06 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 15:44:58 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-12 15:45:18 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:11.324047
+2026-03-12 15:46:22 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 15:46:24 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.084464
+2026-03-12 15:46:24 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 15:47:25 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-12 15:47:33 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:09.408499
+2026-03-12 16:05:48 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 16:05:49 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.170444
+2026-03-12 16:05:49 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 16:06:27 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-12 16:06:52 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:02.981717
+2026-03-12 16:48:47 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 16:48:48 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.101628
+2026-03-12 16:48:48 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 16:49:28 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-12 16:50:46 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:57.566421
+2026-03-12 18:08:52 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 18:08:53 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.132598
+2026-03-12 18:08:53 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 18:18:42 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-12 18:18:43 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.166149
+2026-03-12 18:18:43 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-12 18:19:15 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 10:15:20 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 10:15:22 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.217174
+2026-03-13 10:15:22 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 10:15:58 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 10:16:37 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 10:16:38 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.130486
+2026-03-13 10:16:38 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 10:17:15 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 10:18:29 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 10:18:30 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.182968
+2026-03-13 10:18:30 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 10:19:49 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 10:21:06 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 10:21:06 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.332994
+2026-03-13 10:21:06 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 10:21:18 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 10:21:19 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:12.172866
+2026-03-13 10:53:21 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 10:53:22 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.561013
+2026-03-13 10:53:22 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 10:53:41 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 10:57:10 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 10:57:10 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.304025
+2026-03-13 10:57:10 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 10:57:22 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 10:57:22 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:12.410428
+2026-03-13 11:04:12 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 11:04:12 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.323200
+2026-03-13 11:04:12 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 11:04:23 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 11:04:24 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:11.623841
+2026-03-13 11:24:57 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 11:24:57 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.416207
+2026-03-13 11:24:57 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 11:25:12 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 11:25:18 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:20.755113
+2026-03-13 14:40:30 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 14:40:32 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.802959
+2026-03-13 14:40:32 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 14:42:13 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 14:42:14 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:01:42.098925
+2026-03-13 15:43:32 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 15:43:33 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.408314
+2026-03-13 15:43:33 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 15:43:51 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 15:43:52 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:19.199282
+2026-03-13 15:45:22 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 15:45:22 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.380088
+2026-03-13 15:45:22 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 15:46:17 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 15:46:18 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:55.661963
+2026-03-13 15:50:26 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-03-13 15:50:27 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.276643
+2026-03-13 15:50:27 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-03-13 15:52:58 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-03-13 15:53:19 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:02:52.310014
+2026-04-23 09:07:15 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-04-23 09:07:16 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:01.210742
+2026-04-23 09:07:16 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-04-23 09:07:20 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-04-23 09:07:21 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:04.079936
+2026-04-23 09:08:11 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-04-23 09:08:11 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.079580
+2026-04-23 09:08:11 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-04-23 09:08:14 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-04-23 09:08:14 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:03.417410
+2026-04-23 11:04:31 | [INFO] | deepgram_diarization_router.py | get_captions | Starting Process
+2026-04-23 11:04:31 | [INFO] | deepgram_diarization_router.py | get_captions | File Conversion completed in 0:00:00.413238
+2026-04-23 11:04:31 | [INFO] | deepgram_diarization.py | get_captions | Starting with Deepgram Nova 3
+2026-04-23 11:04:53 | [INFO] | _client.py | _send_single_request | HTTP Request: POST https://api.deepgram.com/v1/listen?diarize=true&language=en-IN&model=nova-3&punctuate=true&smart_format=true "HTTP/1.1 200 OK"
+2026-04-23 11:04:53 | [INFO] | deepgram_diarization.py | get_captions | Total Time Taken To Complete 0:00:21.655910
